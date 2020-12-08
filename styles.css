@@ -1,0 +1,211 @@
+/* You can add global styles to this file, and also import other style files */
+*, body, html {
+	padding: 0;
+	font: 1.03em "Open Sens", sans-serif;
+	width: 100%;
+	text-align: right;
+	color: inherit;
+}
+
+
+/**font famylies**/
+@font-face{
+	font-family: "Almarai";
+	src: url("/assets/font-familes/Almarai-Regular.ttf") format("opentype");
+}
+@font-face{
+	font-family: "Cairo";
+	src: url("/assets//font-families/Amiri-Bold.ttf") format("opentype");
+}
+@font-face{
+	font-family: "Cairo";
+	src: url("/assets//font-families/Cairo-Light.ttf") format("opentype");
+}
+
+
+
+
+
+
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+
+.logo{
+	width: 250px;
+	margin: 0 auto;
+	height: auto;
+	text-align: center;
+}
+
+/**sütunlar**/
+.nav{
+	width: 668px;
+	height: 850px;
+	margin: 3px;
+	background: #009345;
+	float: right;
+	color: #fff;
+	
+}
+
+.baslik{
+	font-size: 30px;
+	margin-right:10px ;
+	font-family: Amiri;
+	padding: 10px 10px 10px 10px;
+    text-align: center;
+    font-size: 25px;
+}
+
+
+
+.icRight{
+	list-style-type: none;
+	position: relative;
+	font-size: 14px;
+	font-family: Cairo;
+	text-align: center;
+	margin-bottom: 90px;
+}
+
+.icLeft{
+	list-style-type: none;
+	position: relative;
+	font-size: 14px;
+	font-family: Cairo;
+	text-align: center;    
+}
+
+.icRight h3{
+	border: 1px solid #013571; 
+	background: #013571;
+	border-radius: 20px;
+	text-align: center;
+    font-size: 18px;
+    width: 300px;
+    margin-left: 175px;
+    margin-top: 42px;
+}
+
+.icLeft h3{
+	border: 1px solid #009345;
+    background: #009345;
+    margin-left: 175px;
+	border-radius: 20px;
+	text-align: center;
+    font-size: 18px;
+	width: 300px;
+}
+
+.icerik{
+	margin: 5px 5px 5px -4px;
+	font-size: 15px;
+	padding: 10px 5px 7px 5px;
+	text-align: center;
+}
+.icerik :hover{
+	text-decoration: none;
+	color: #009345;
+}
+
+.icerik5{
+	margin: 5px 5px 5px -4px;
+	font-size: 15px;
+	padding: 10px 5px 7px 5px;
+	text-align: center;
+}
+.icerik5 :hover{
+	text-decoration: none;
+	color: #013571;
+}
+
+/**slider start**/
+.sliderr{
+	width: 1343px;
+	height: 400px;
+	background: rgb(187, 179, 179);
+	margin: 856px 3px 3px 3px;
+}
+/**slider end**/
+
+/**footer başlangıcı**/
+footer{
+	width: 100%;
+	height: 250px;
+	position: relative;
+	clear: both;
+	background: #293432;
+	display: inline-flex;
+	padding: 20px 0;
+	font-size: 10px;
+}
+
+#footLogo{
+	font-family: Almarai;
+	text-align: center;
+	font-size: 35px;
+}
+
+.daire{
+	border-radius: 20px;
+	width: 25px;
+	height: 25px;
+    margin: 5px;
+
+}
+
+#footerContianer{
+	width: 100%;
+	position: relative;
+	margin: auto;
+}
+
+.footerBoxRight{
+	width: 35%;
+	position: relative;
+	float: right;
+	text-align: center;
+	color: #fff;
+	padding: 36 25px;
+    margin: 20px;
+}
+
+.footerBoxLeft{
+	width: 65%;
+	position: relative;
+	text-align: center;
+	color: #fff;
+	text-align: right;
+	line-height: 30px; 
+}
+
+.foot{
+	line-height: 50px;
+	border-bottom: 2px solid #009345;
+	width: 120px;
+	font-size: 23px;
+
+}
+
+.iletisimBas{
+	font-size: 15px;
+	color: #009345;
+}
+
+.baglantilar :hover{
+	text-decoration: none;
+	color: #013571;
+}
+
+/**footer bitişi**/
+
+
+
+
+
+
+
